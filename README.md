@@ -1,4 +1,0 @@
-# golangclass
-
-
-okay
