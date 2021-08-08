@@ -1,9 +1,18 @@
-# This REPO created for Learning purpose only.
+> This golang learning documents created for learning/poc usage only. for more information, Please contact the author @ venkatpathiraj Ravichandran
 
-* Welcome to RAJ golang class
+# GOLANG Zero to Expert !!!
 
-Welcome to chennai
+On this repo,  will try to do 10 excerises in golang. 
 
-- Welcome to chennai
+* hello world program in golang
+* declare a variable 
+* function in go
+* simple CALC program using GOLANG
+* loop in GOLANG
+* condition statements in GOLANG
+* SWITCH using GOLANG
 
-* "Welcome to chennai"
+### Hello world program
+
+Below program only print the hello world using golang. 
+
