@@ -1,1 +1,4 @@
 # golangclass
+
+
+okay
