@@ -9,7 +9,7 @@ On this repo,  will try to do 10 excerises in golang.
 * function in go
 * simple CALC program using GOLANG
 * loop in GOLANG
-* condition statements in GOLANG [https://google./com] click here
+* condition statements in GOLANG [https://google.com] click here
 * SWITCH using GOLANG
 
 ### Hello world program
