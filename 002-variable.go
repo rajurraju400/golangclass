@@ -16,5 +16,5 @@ func main() {
 	//var num = 3
 
 	//print the num variable use the fmt function or method
-	fmt.Println("Value of num :", num)
+	fmt.Println("Value of a num :", num)
 }
