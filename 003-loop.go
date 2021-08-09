@@ -1,12 +1,13 @@
 package main
 
-import ("fmt")
+import "fmt"
 
-func main(){
+func main() {
 
-	i = 0
-	for i > 5 {
-		fmt.Println("Welcome", i)
-		
+	var i int = 1
+	for i < 20 {
+		fmt.Println("Value of i", i)
+		i++
 	}
+	fmt.Println("Welcome to chennai")
 }
