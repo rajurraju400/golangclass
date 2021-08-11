@@ -9,5 +9,5 @@ func main() {
 		fmt.Println("Value of i", i)
 		i++
 	}
-	fmt.Println("Welcome to chennai")
+	//fmt.Println("Welcome to chennai")
 }
