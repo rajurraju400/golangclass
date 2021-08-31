@@ -1,1 +1,30 @@
-Welco
+step1: take a backup of cbis_manager container image
+
+[root@cluster-manager-0 ~]# docker save cbis_manager -o cbis_manager.tar
+
+step2:  compress the file
+
+[root@cluster-manager-0 ~]# gzip cbis_manager.tar
+
+step3:  download locally to the laptop and ship it to customer infra. 
+
+step4:  upload the file to master-0
+
+step5:  uncompress the file 
+
+
+[root@cluster-manager-0 ~]# gunzip cbis_manager.tar.gz
+
+step 6: push to docker registry 
+
+docker push -i cbis_manager.tar
+
+step 7: navigate to ncs manager folder and run docker-compose
+
+docker-compose -f docker-compose.yaml 
+
+step 8: validate the running docker containers
+
+docker ps |grep -i cbis
+
+step: 9:  validate the NCS UI on the webbrowser. 
